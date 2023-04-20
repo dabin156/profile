@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#wrap{
+    width: 900px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+section>video{
+    display: block;
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+section>.controlgruop{
+    margin-top: 30px;
+    text-align: center;
+}
+
+section>.controlgruop>button{
+    width: 200px;
+    height: 30px;
+}
+
+section>.controlgruop>button:nth-child(2){margin: 0 50px;}
