@@ -868,6 +868,7 @@
   background-image: url(./../images/bg_m_elp.png);
 }
 #wrap > .caricter > .contain > ul {
+  overflow: hidden;
   display: flex;
   position: absolute;
   width: 9600px;
@@ -945,6 +946,9 @@
 #wrap > .caricter > .thumbs {
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #wrap > .caricter > .thumbs > ul {
   display: flex;
@@ -979,32 +983,28 @@
 }
 #wrap > .caricter > .thumbs > ol {
   position: absolute;
-  top: 0;
+  top: 10px;
+  left: -30px;
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: center;
 }
 #wrap > .caricter > .thumbs > ol > li {
-  width: 155px;
+  width: 160px;
 }
 #wrap > .caricter > .thumbs > ol > li > a {
-  display: inline-block;
+  display: block;
   color: #ccc;
 }
 #wrap > .caricter > .thumbs > ol > li > a > p:nth-child(odd) {
   color: orange;
 }
 #wrap > .caricter > .thumbs > p {
-  position: absolute;
-  top: 0px;
-  left: 0px;
   width: 100px;
   height: 180px;
   line-height: 180px;
   text-align: center;
   background-color: #222;
-  margin-left: -100px;
 }
 #wrap footer {
   position: relative;

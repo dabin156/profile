@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 #wrap{
+
     header{
         position: relative;
         padding-top: 5rem;
@@ -74,10 +75,10 @@
         }
     
         >.nav-wrap{
-            background-color:#243c84;
             position: absolute;
             top: 0;
             width: 100%;
+            background-color:#243c84;
             >.top-nav{
                 display: flex;
                 align-items: center;
@@ -329,6 +330,7 @@
             }
 
             >.beanist-product_box{
+                overflow: hidden;
                 position: relative;
                 display: flex;
                 align-items: center;
